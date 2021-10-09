@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,20 @@
 		158B26512711232C0026E227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 158B26502711232C0026E227 /* Assets.xcassets */; };
 		158B26542711232C0026E227 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 158B26532711232C0026E227 /* Preview Assets.xcassets */; };
 		158B266B271124E50026E227 /* ShopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158B2669271124E40026E227 /* ShopModel.swift */; };
+		158B2677271129EB0026E227 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158B2671271129EB0026E227 /* Onboarding.swift */; };
+		158B267927112A3F0026E227 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158B267827112A3F0026E227 /* LoginView.swift */; };
+		158B267B27112A570026E227 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158B267A27112A570026E227 /* SignUpView.swift */; };
+		158B267D27112A6E0026E227 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158B267C27112A6E0026E227 /* MainView.swift */; };
+		158B267F27112A7D0026E227 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158B267E27112A7D0026E227 /* SearchView.swift */; };
+		158B268127112A880026E227 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158B268027112A880026E227 /* CartView.swift */; };
+		158B268327112A950026E227 /* WishlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158B268227112A950026E227 /* WishlistView.swift */; };
+		158B268527112AA40026E227 /* OrderingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158B268427112AA40026E227 /* OrderingView.swift */; };
+		158B268727112AB20026E227 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158B268627112AB20026E227 /* ProfileView.swift */; };
+		158B268927112DAC0026E227 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158B268827112DAC0026E227 /* UIColor.swift */; };
+		158B268B271133FB0026E227 /* ButtonStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158B268A271133FB0026E227 /* ButtonStyleView.swift */; };
+		158B268E271148D30026E227 /* FloatingLabelTextFieldSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 158B268D271148D30026E227 /* FloatingLabelTextFieldSwiftUI */; };
+		158B269027114D6C0026E227 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158B268F27114D6C0026E227 /* CheckBoxView.swift */; };
+		158B2692271156080026E227 /* LineDividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158B2691271156080026E227 /* LineDividerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +36,19 @@
 		158B26532711232C0026E227 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		158B26552711232C0026E227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		158B2669271124E40026E227 /* ShopModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopModel.swift; sourceTree = "<group>"; };
+		158B2671271129EB0026E227 /* Onboarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		158B267827112A3F0026E227 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		158B267A27112A570026E227 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		158B267C27112A6E0026E227 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		158B267E27112A7D0026E227 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		158B268027112A880026E227 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		158B268227112A950026E227 /* WishlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistView.swift; sourceTree = "<group>"; };
+		158B268427112AA40026E227 /* OrderingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderingView.swift; sourceTree = "<group>"; };
+		158B268627112AB20026E227 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		158B268827112DAC0026E227 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		158B268A271133FB0026E227 /* ButtonStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleView.swift; sourceTree = "<group>"; };
+		158B268F27114D6C0026E227 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		158B2691271156080026E227 /* LineDividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineDividerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				158B268E271148D30026E227 /* FloatingLabelTextFieldSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +139,7 @@
 		158B2661271124E40026E227 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				158B268827112DAC0026E227 /* UIColor.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -132,6 +161,9 @@
 		158B2664271124E40026E227 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				158B268A271133FB0026E227 /* ButtonStyleView.swift */,
+				158B268F27114D6C0026E227 /* CheckBoxView.swift */,
+				158B2691271156080026E227 /* LineDividerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,9 +203,82 @@
 		158B266A271124E50026E227 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				158B2670271129EB0026E227 /* Onboarding */,
+				158B266F271129EB0026E227 /* Account */,
+				158B2673271129EB0026E227 /* Main */,
+				158B266E271129EB0026E227 /* Search */,
+				158B2675271129EB0026E227 /* Cart */,
+				158B2676271129EB0026E227 /* Wishlist */,
+				158B2674271129EB0026E227 /* Ordering */,
+				158B2672271129EB0026E227 /* Profile */,
 				158B264E2711232A0026E227 /* ContentView.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		158B266E271129EB0026E227 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				158B267E27112A7D0026E227 /* SearchView.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		158B266F271129EB0026E227 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				158B267827112A3F0026E227 /* LoginView.swift */,
+				158B267A27112A570026E227 /* SignUpView.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		158B2670271129EB0026E227 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				158B2671271129EB0026E227 /* Onboarding.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		158B2672271129EB0026E227 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				158B268627112AB20026E227 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		158B2673271129EB0026E227 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				158B267C27112A6E0026E227 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		158B2674271129EB0026E227 /* Ordering */ = {
+			isa = PBXGroup;
+			children = (
+				158B268427112AA40026E227 /* OrderingView.swift */,
+			);
+			path = Ordering;
+			sourceTree = "<group>";
+		};
+		158B2675271129EB0026E227 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				158B268027112A880026E227 /* CartView.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		158B2676271129EB0026E227 /* Wishlist */ = {
+			isa = PBXGroup;
+			children = (
+				158B268227112A950026E227 /* WishlistView.swift */,
+			);
+			path = Wishlist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +297,9 @@
 			dependencies = (
 			);
 			name = PlantyShop;
+			packageProductDependencies = (
+				158B268D271148D30026E227 /* FloatingLabelTextFieldSwiftUI */,
+			);
 			productName = PlantyShop;
 			productReference = 158B26492711232A0026E227 /* PlantyShop.app */;
 			productType = "com.apple.product-type.application";
@@ -219,6 +327,9 @@
 				Base,
 			);
 			mainGroup = 158B2640271123290026E227;
+			packageReferences = (
+				158B268C271148D30026E227 /* XCRemoteSwiftPackageReference "FloatingLabelTextFieldSwiftUI" */,
+			);
 			productRefGroup = 158B264A2711232A0026E227 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -245,8 +356,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				158B268127112A880026E227 /* CartView.swift in Sources */,
+				158B269027114D6C0026E227 /* CheckBoxView.swift in Sources */,
+				158B267927112A3F0026E227 /* LoginView.swift in Sources */,
+				158B267D27112A6E0026E227 /* MainView.swift in Sources */,
+				158B268327112A950026E227 /* WishlistView.swift in Sources */,
+				158B268B271133FB0026E227 /* ButtonStyleView.swift in Sources */,
+				158B268727112AB20026E227 /* ProfileView.swift in Sources */,
 				158B264F2711232A0026E227 /* ContentView.swift in Sources */,
 				158B266B271124E50026E227 /* ShopModel.swift in Sources */,
+				158B268527112AA40026E227 /* OrderingView.swift in Sources */,
+				158B2692271156080026E227 /* LineDividerView.swift in Sources */,
+				158B267F27112A7D0026E227 /* SearchView.swift in Sources */,
+				158B268927112DAC0026E227 /* UIColor.swift in Sources */,
+				158B267B27112A570026E227 /* SignUpView.swift in Sources */,
+				158B2677271129EB0026E227 /* Onboarding.swift in Sources */,
 				158B264D2711232A0026E227 /* PlantyShopApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,7 +504,7 @@
 				DEVELOPMENT_TEAM = FK3FA23S5A;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/PlantyShop/Supported Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -402,7 +526,7 @@
 				DEVELOPMENT_TEAM = FK3FA23S5A;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/PlantyShop/Supported Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,6 +560,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		158B268C271148D30026E227 /* XCRemoteSwiftPackageReference "FloatingLabelTextFieldSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishanraja/FloatingLabelTextFieldSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		158B268D271148D30026E227 /* FloatingLabelTextFieldSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 158B268C271148D30026E227 /* XCRemoteSwiftPackageReference "FloatingLabelTextFieldSwiftUI" */;
+			productName = FloatingLabelTextFieldSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 158B2641271123290026E227 /* Project object */;
 }
